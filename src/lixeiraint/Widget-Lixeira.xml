@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Widget name="WidgetLixeira" xmlns="http://www.contexttoolkit.org/ctk">
+	<Attributes>
+            <!-- Valores não constantes -->
+		<Attribute name="quantPlastico" type="short"/>
+                    <min>0</min>
+                    <max>250</max>
+		<Attribute name="quantOleo" type="short"/>
+                    <min>0</min>
+                    <max>250</max>
+		<Attribute name="quantVidro" type="short"/>
+                    <min>0</min>
+                    <max>250</max>
+            <!-- Valores constantes -->
+            <Attribute name="lixeira" type="string" constant="true"/>
+	</Attributes>
+</Widget>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Widget name="WidgetStatusLixeira" xmlns="http://www.contexttoolkit.org/ctk">
+	<Attributes>
+              <!-- Valores não constantes -->
+		<Attribute name="status" type="string"/>
+              <!-- Valores constantes -->
+                <Attribute name="led" type="string" constant="true"/>
+	</Attributes>
+</Widget>
